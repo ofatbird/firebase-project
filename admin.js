@@ -6,4 +6,5 @@ admin.initializeApp({
 	databaseURL: "https://hot-update.firebaseio.com/",
 })
 
-export default db = admin.database();
+// const ref = admin.database().ref('films/bdfilms')
+module.exports = admin.database();
